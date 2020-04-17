@@ -23,23 +23,6 @@ df = volunteer_data
 fig = px.scatter_mapbox(df, lat="centroid_lat", lon="centroid_lon", color="availability", size="availability",
                   color_continuous_scale=px.colors.cyclical.IceFire, size_max=15, zoom=12)
 
-# layout = dict(
-#     autosize=True,
-#     automargin=True,
-#     margin=dict(l=30, r=30, b=20, t=40),
-#     hovermode="closest",
-#     plot_bgcolor="#F9F9F9",
-#     paper_bgcolor="#F9F9F9",
-#     legend=dict(font=dict(size=10), orientation="h"),
-#     title="Satellite Overview",
-#     mapbox=dict(
-#         accesstoken=mapbox_access_token,
-#         style="light",
-#         center=dict(lon=-78.05, lat=42.54),
-#         zoom=7,
-#     ),
-# )
-
 # Environment Variables
 request_types = [{'label': item[0], 'value': item[1]} for item in REQUEST_TYPES.items()]
 request_subtypes = [{'label': subtype, 'value': subtype} for type in REQUEST_SUBTYPES.values() for subtype in type]
