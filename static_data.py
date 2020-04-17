@@ -9,10 +9,10 @@ APP_DESCRIPTION = """
                       to select their preferred volunteer by clicking on the map
                     - Detailed contact information for local agent office and the selected volunteer will appear \
                       at the botoom of the page.
-                    - State Farm volunteers will be rewarded and recognized for their kind actions, as part of our ***100forGood*** Program. 
+                    - Volunteers will be rewarded and recognized for their kind actions, as part of our ***100forGood*** Program. 
                   """
 
-APP_TITLE = "***100forGood*** Volunteering Map for COVID-19"
+APP_TITLE = " COVID-19 Volunteering App"
 
 REQUEST_TYPES = dict(grocery='G', 
                      medical='M', 
